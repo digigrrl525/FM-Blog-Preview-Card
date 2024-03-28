@@ -26,7 +26,7 @@ body {
     margin-right: auto;
     margin-bottom: 36px;
     margin-top: 218.5px;
-    width: 50%;
+    width: 100%;
     max-width: 336px;
     height: auto;
     padding: 24px;
@@ -84,7 +84,7 @@ p#name {
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
-@media screen and (min-width: 375px) {   
+@media screen and (max-width: 375px) {   
     .content {
         max-width: 279px;
         width: 100%;
